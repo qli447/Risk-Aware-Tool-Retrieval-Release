@@ -3,6 +3,9 @@
 This repository contains the code and resolved tool-risk labels used in our
 CIKM 2026 paper, *Risk-Aware Reranking for Agentic Tool Retrieval*.
 
+The UltraTool and Seal-Tools risk labels are also available on
+[Hugging Face](https://huggingface.co/datasets/lqfff1984/Risk-Aware-Tool-Risk-Labels).
+
 ## Contents
 
 - `code/model.py`: frozen-encoder dual-head reranker.
