@@ -12,6 +12,10 @@ Junchen Fu, Youhua Li, Hanwen Du, and Chunxiao Li.
 The UltraTool and Seal-Tools risk labels are also available on
 [Hugging Face](https://huggingface.co/datasets/lqfff1984/Risk-Aware-Tool-Risk-Labels).
 
+## Framework overview
+
+![Framework overview: offline risk annotation, dual-head reranking, ToolGraph score propagation, and rule filtering.](assets/overview.png)
+
 ## Contents
 
 - `code/model.py`: frozen-encoder dual-head reranker.
