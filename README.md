@@ -3,6 +3,12 @@
 This repository contains the code and resolved tool-risk labels used in our
 CIKM 2026 paper, *Risk-Aware Reranking for Agentic Tool Retrieval*.
 
+**Authors:** Qinfei Li, Xiaoxuan Dong, Jin Zhang, Dexu Yu, Wenhao Deng,
+Junchen Fu, Youhua Li, Hanwen Du, and Chunxiao Li.
+
+**Paper:** [Read on arXiv](https://arxiv.org/abs/2608.22751)
+([PDF](https://arxiv.org/pdf/2608.22751)). Accepted at CIKM 2026.
+
 The UltraTool and Seal-Tools risk labels are also available on
 [Hugging Face](https://huggingface.co/datasets/lqfff1984/Risk-Aware-Tool-Risk-Labels).
 
@@ -263,3 +269,19 @@ python code/topk_probe.py \
 By default, the scripts use
 `mangopy/ToolRet-trained-bge-large-en-v1.5`, the frozen ToolRet-BGE encoder in
 the paper.
+
+## Citation
+
+If you use this code or the risk labels in your research, please cite our paper:
+
+```bibtex
+@misc{li2026riskawarereranking,
+  title={Risk-Aware Reranking for Agentic Tool Retrieval},
+  author={Qinfei Li and Xiaoxuan Dong and Jin Zhang and Dexu Yu and Wenhao Deng and Junchen Fu and Youhua Li and Hanwen Du and Chunxiao Li},
+  year={2026},
+  eprint={2608.22751},
+  archivePrefix={arXiv},
+  primaryClass={cs.IR},
+  url={https://arxiv.org/abs/2608.22751}
+}
+```
